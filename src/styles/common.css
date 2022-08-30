@@ -1,0 +1,275 @@
+.font-10 {
+  font-size: 10px;
+}
+.font-11 {
+  font-size: 11px;
+}
+.font-12 {
+  font-size: 12px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-15 {
+  font-size: 15px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-17 {
+  font-size: 17px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-19 {
+  font-size: 18px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-21 {
+  font-size: 21px;
+}
+.font-22 {
+  font-size: 22px;
+}
+.font-23 {
+  font-size: 23px;
+}
+.font-24 {
+  font-size: 24px;
+}
+.font-25 {
+  font-size: 25px;
+}
+.color66 {
+  color: #66ccff;
+}
+.colorff {
+  color: #ffffff;
+}
+.color666 {
+  color: #666666;
+}
+.colorFFF {
+  color: white;
+}
+.cor579DFF {
+  color: #579dff;
+}
+.corFE7148 {
+  color: #fe7148;
+}
+.cor22BFCE {
+  color: #36dcbe;
+}
+.corAF85FF {
+  color: #af85ff;
+}
+.color148 {
+  color: rgba(254, 113, 72, 1);
+  opacity: 1 !important;
+}
+.color880 {
+  color: #01b880;
+}
+.coloref2 {
+  color: #8d6ef2;
+}
+.bgFF8 {
+  color: #ff862e;
+}
+.color333 {
+  color: #333333;
+}
+.color07d {
+  color: #e6707d;
+}
+.color000 {
+  color: #000000;
+}
+.lineH16 {
+  line-height: 16px;
+}
+.lineH18 {
+  line-height: 18px;
+}
+.lineH20 {
+  line-height: 20px;
+}
+.lineH22 {
+  line-height: 22px;
+}
+.lineH24 {
+  line-height: 24px;
+}
+.lineH26 {
+  line-height: 26px;
+}
+.lineH28 {
+  line-height: 28px;
+}
+.lineH30 {
+  line-height: 30px;
+}
+.textLeft {
+  text-align: left;
+}
+.bold {
+  font-weight: bold;
+}
+.cell {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #f2f2f2;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+em {
+  font-style: normal;
+}
+img {
+  width: 5%;
+  height: 5%;
+}
+.color-round {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px dashed #000000;
+  margin: 15px;
+}
+/* >>>默认的form显示 */
+form {
+  width: 100% !important;
+  height: 100% !important;
+  position: relative;
+}
+figure {
+  display: block;
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+  margin-inline-start: 0 !important;
+  margin-inline-end: 0 !important;
+}
+/* >>>这两行代码 用来修改手机端的图片大小显示 */
+.contentClass >>> figure {
+  display: block;
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+  margin-inline-start: 0 !important;
+  margin-inline-end: 0 !important;
+  overflow: auto;
+}
+.contentClass >>> img {
+  width: 100%;
+  margin: auto;
+  object-fit: fill;
+}
+.widthImg >>> img {
+  width: 100%;
+  margin: auto;
+  object-fit: fill;
+}
+/* 弹性布局 */
+.flex_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex_space {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex_space span {
+  display: table;
+}
+.flex_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex_start {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.flex-hl {
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 20px;
+}
+/*vant样式修改*/
+.van-cell--large {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+.van-cell__title,
+.van-cell__value {
+  -webkit-box-flex: none;
+}
+.marginT5 {
+  margin-top: 5px;
+}
+.icon-cancel {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 4px;
+  right: 35px;
+  z-index: 2001;
+  font-size: 40px;
+  color: var(pink);
+}
+.crBlue {
+  background: linear-gradient(131deg, #47cef4 0%, #458aff 100%);
+}
+/* 活动规则弹框 */
+.rulePopView {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+}
+.tipColor {
+  color: #5a9aff;
+}
+.marginLR5 {
+  margin: 0 5px;
+}

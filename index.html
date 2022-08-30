@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="x5-fullscreen" content="true">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta
+    content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width, viewport-fit=cover"" name="
+    viewport">
+  <title></title>
+  <!-- 开启 safe-area-inset-bottom 属性 禁止原生导航栏 -->
+  <van-number-keyboard safe-area-inset-bottom />
+</head>
+<style>
+  /* 当设备屏幕横屏宽度为960时  适配忆学4,5代960*600*/
+  @media only screen and (min-width: 960px) {
+    html {
+      font-size: 12px;
+    }
+  }
+
+  /*  当设备屏幕横屏宽度为1098时  适配忆学3代1098*686 */
+  @media only screen and (min-width: 1098px) {
+    html {
+      font-size: 13.7248px;
+    }
+  }
+
+  /*  当设备屏幕横屏宽度为1280时  适配忆学12代/1280*800 */
+  @media only screen and (min-width: 1280px) {
+    html {
+      /* font-size: 16px !important; 1280*800根元素应设置为16px,然二代机的实际根元素大小为指定大小的1.3倍......,啥逼玩意*/
+      font-size: 12.30769230769231px !important;
+      /* font-size: 16px !important; */
+    }
+  }
+</style>
+
+<body>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
+</html>
